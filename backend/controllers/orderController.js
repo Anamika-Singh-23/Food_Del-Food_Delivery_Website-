@@ -15,7 +15,7 @@ const razorpay = new Razorpay({
 //placing user oder for frontened
 const placeOrder = async(req, res) => {
 
-    const frontend_url = "http://localhost:5174";
+    const frontend_url = "https://food-del-frontend-d0d3.onrender.com/";
     
     try {
         const {items, amount, address } = req.body;
